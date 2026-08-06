@@ -1,0 +1,8 @@
+{
+  "perplexity": 42.47092941125956,
+  "efficiency/elapsed_wall_seconds": 1724.2289238988888,
+  "efficiency/sequences_per_second": 92.79510265852763,
+  "efficiency/tokens_per_second": 94929.39001967377,
+  "efficiency/peak_cuda_memory_bytes": 7681658880.0,
+  "efficiency/optimizer_state_bytes": 2047423668.0
+}

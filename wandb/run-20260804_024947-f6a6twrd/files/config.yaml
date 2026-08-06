@@ -1,0 +1,258 @@
+_wandb:
+    value:
+        cli_version: 0.28.0
+        e:
+            hgd12gawzs0cb8ixlhfqmbfu4rbdaem4:
+                args:
+                    - --override_json
+                    - /tmp/claude-0/-workspace/43f53c46-7d51-4d0c-bf7f-acd4179e3a65/scratchpad/run_adamw.json
+                codePath: train_llm.py
+                codePathLocal: train_llm.py
+                cpu_count: 112
+                cpu_count_logical: 224
+                cudaVersion: "12.9"
+                disk:
+                    /:
+                        total: "1195074650112"
+                        used: "874841690112"
+                email: ethansmith2000@gmail.com
+                executable: /venv/main/bin/python
+                git:
+                    commit: 809816b928c11ecf62850e36438f0410b4ef2549
+                    remote: https://github.com/ethansmith2000/laprop_shampoo.git
+                gpu: NVIDIA GeForce RTX 5090
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-db4b9a96-3a84-cb7e-4dab-08d7d37a038f
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-fbb710c4-8e98-0a46-5208-5cfda9d95b85
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-355c0812-816b-0c01-b84e-6956367dd5d2
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-302638db-5fbb-e08b-17e8-48ef95603139
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-dc7eae6c-31a4-68c0-a49d-6266b1b8548b
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-20c628ac-d9f2-2c9c-1609-d07f57d6e0e8
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-40c164e8-69d7-8279-6987-bf739d8fb7d6
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090
+                      uuid: GPU-5a27fa48-24e2-bf1e-fd25-b0aa6bd47bc2
+                host: d1debbaaa466
+                memory:
+                    total: "540818292736"
+                os: Linux-5.15.0-185-generic-x86_64-with-glibc2.39
+                program: /workspace/laprop_shampoo/train_llm.py
+                python: CPython 3.12.13
+                root: /workspace/laprop_shampoo
+                startedAt: "2026-08-04T02:49:47.611332Z"
+                writerId: hgd12gawzs0cb8ixlhfqmbfu4rbdaem4
+        m: []
+        python_version: 3.12.13
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 71
+            "2":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 71
+            "3":
+                - 2
+                - 13
+                - 61
+            "4": 3.12.13
+            "5": 0.28.0
+            "6": 5.14.0
+            "12": 0.28.0
+            "13": linux-x86_64
+activation_probe:
+    value: false
+base_output_dir:
+    value: /workspace/laprop_shampoo/runs
+beta1:
+    value: 0.9
+beta2:
+    value: 0.999
+block_size:
+    value: 1024
+checkpointing_steps:
+    value: null
+compile:
+    value: true
+compile_fullgraph:
+    value: true
+compile_mode:
+    value: reduce-overhead
+compile_optimizer:
+    value: true
+config_name:
+    value: null
+csv_flush_every:
+    value: 100
+csv_logging:
+    value: true
+dataset_config_name:
+    value: null
+dataset_name:
+    value: Skylion007/openwebtext
+depth:
+    value: 12
+depth_scaled_residual_init:
+    value: true
+diagnostics_every:
+    value: 50
+exclude_embeddings_from_precond:
+    value: true
+gradient_accumulation_steps:
+    value: 1
+gradient_checkpointing:
+    value: true
+graft:
+    value: rms
+hf_cache_dir:
+    value: /workspace/.hf_home/hub
+hf_path:
+    value: null
+hidden_size:
+    value: 1024
+learning_rate:
+    value: 0.0004
+log_every_n:
+    value: 10
+log_params_every_n:
+    value: 100
+low_cpu_mem_usage:
+    value: false
+lr_scheduler_type:
+    value: linear
+lr_warmup_mult:
+    value: 1
+max_grad_norm:
+    value: 1
+max_precond_dim:
+    value: 8192
+max_train_steps:
+    value: 5000
+mode:
+    value: adamw
+model_name_or_path:
+    value: openai-community/gpt2-medium
+model_type:
+    value: null
+n_head:
+    value: 8
+ndb_damp:
+    value: 1e-06
+ndb_iters:
+    value: 15
+nesterov:
+    value: false
+no_keep_linebreaks:
+    value: false
+num_train_epochs:
+    value: 1
+num_validation_batches:
+    value: 25
+num_warmup_steps:
+    value: 100
+num_workers:
+    value: 8
+one_sided:
+    value: false
+output_dir:
+    value: /workspace/laprop_shampoo/runs/run_adamw
+overwrite_cache:
+    value: false
+per_device_train_batch_size:
+    value: 32
+precondition_frequency:
+    value: 10
+prefetch_factor:
+    value: 2
+preprocessing_num_workers:
+    value: 180
+profile_every:
+    value: 10
+profile_timers:
+    value: false
+qk_norm:
+    value: true
+report_to:
+    value: wandb
+resume_from_checkpoint:
+    value: null
+root_method:
+    value: eigh
+run_name:
+    value: run_adamw
+save_final_model:
+    value: false
+seed:
+    value: 123
+split_fused_precond:
+    value: true
+start_preconditioning_step:
+    value: 250
+synthetic_num_samples:
+    value: 16
+synthetic_validation_samples:
+    value: 4
+synthetic_vocab_size:
+    value: 128
+tokenized_dataset_path:
+    value: /workspace/tokenized/gpt2-medium_openwebtext_1024
+tokenizer_name:
+    value: null
+track_stats_every_n:
+    value: 200
+train_file:
+    value: null
+trust_remote_code:
+    value: false
+use_slow_tokenizer:
+    value: false
+validate_every:
+    value: 500
+validation_file:
+    value: null
+validation_split_percentage:
+    value: 5
+wandb_project:
+    value: laprop-shampoo
+wandb_run_name:
+    value: run_adamw
+weight_decay:
+    value: 0.01
+with_tracking:
+    value: true

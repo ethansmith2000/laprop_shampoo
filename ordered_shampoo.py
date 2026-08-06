@@ -457,9 +457,11 @@ class OrderedShampoo(Optimizer):
         g = group["graft"]
         if g == "none":
             return direction
+        # NOTE: never branch on a tensor here. `if rms <= 0` forces a
+        # host-device sync once per parameter per step (139 on this model),
+        # which serialises the whole optimizer against the GPU. clamp_min
+        # already handles the degenerate rms == 0 case.
         rms = direction.norm() / max(direction.numel() ** 0.5, 1.0)
-        if rms <= 0:
-            return direction
         if g == "rms":
             return direction / rms.clamp_min(1e-16)
         # 'adam': match the norm of a co-maintained diagonal Adam update

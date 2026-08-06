@@ -1,0 +1,12 @@
+{
+  "model_class": "Transformer",
+  "hidden_size": 1024,
+  "depth": 12,
+  "n_head": 8,
+  "ff_mult": 4,
+  "vocab_size": 50257,
+  "max_seq_len": 1024,
+  "gradient_checkpointing": true,
+  "qk_norm": true,
+  "weights_saved": false
+}
